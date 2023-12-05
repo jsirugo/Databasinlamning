@@ -143,7 +143,7 @@ namespace Northwind2023_Johannes_Sirugo
             string userInput = Console.ReadLine();
 
             string userInputUpperCase = userInput.ToUpper();
-            Console.WriteLine(userInputUpperCase);
+            Console.WriteLine("Attempting to delete customerID:"+userInputUpperCase+"...");
 
             if (userInput.Length == 5)
             {
