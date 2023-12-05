@@ -12,7 +12,7 @@ namespace Northwind2023_Johannes_Sirugo
     public class Program
     {
         public static string connectionString =
-            @"Data Source=DESKTOP-GV2G3JS\SQLEXPRESS;Initial Catalog=Northwind2023_Johannes_Sirugo;"
+            @"Data Source=LAPTOP-33VKSN3F\SQLEXPRESS01;Initial Catalog=Northwind2023_Johannes_Sirugo;"
              + "Integrated Security=true; TrustServerCertificate=true; MultipleActiveResultSets=true;"; // lade till multipleactiveresultsets för att få delete att fungera
 
         public static void Main()
