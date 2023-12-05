@@ -61,7 +61,7 @@ namespace Northwind2023_Johannes_Sirugo
             {
 
 
-                // sql query för att lägga till ny kund
+                // sql query för att lägga till ny kund .......
                 string query = "INSERT INTO Customers (CustomerID, CompanyName, ContactName, Address, City, PostalCode, Country, Phone, Fax) " +
                                "VALUES (@CustomerID, @CompanyName, @ContactName, @Address, @City, @PostalCode, @Country, @Phone, @Fax)";
 
