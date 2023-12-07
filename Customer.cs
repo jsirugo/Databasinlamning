@@ -14,7 +14,12 @@ namespace Northwind2023_Johannes_Sirugo
         public string Country { get; set; }
         public string Phone { get; set; }
         public string Fax { get; set; }
+
+        public DateTime RequiredDate { get; set; }
         
+        public DateTime OrderDate { get; set; }
+        public DateTime ShippedDate { get; set; }
+
 
       
         public Customer(string contactName, string companyName)   //construktor för att få generateacronym att fungera
@@ -40,7 +45,7 @@ namespace Northwind2023_Johannes_Sirugo
                acronym += word.Substring(0, length);
               }
     
-            // Pad or truncate to ensure exactly 5 characters
+            
                 return acronym.PadRight(5).Substring(0, 5).ToUpper();
 }
 
